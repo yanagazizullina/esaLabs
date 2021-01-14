@@ -1,0 +1,9 @@
+config\HibernateConfig.class
+config\WebConfig.class
+entities\Plant.class
+Main.class
+dao\PlantDAOImpl.class
+dao\PlantService.class
+entities\Genus.class
+config\AppInitializer.class
+controllers\PlantController.class
