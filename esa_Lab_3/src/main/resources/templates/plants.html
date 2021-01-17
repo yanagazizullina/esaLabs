@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Plants</title>
+</head>
+<body>
+<div class="header">
+    <div class="header-link">
+        <a href="/xml/plants">XML</a>
+    </div>
+</div>
+<div id="content">
+    <div class="table-wrapper">
+        <table>
+            <thead>
+            <tr>
+                <td class="id-column">Id</td>
+                <td>Name</td>
+                <td>Genus</td>
+                <td>Lighting</td>
+                <td>Watering</td>
+                <td>Temperature</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="plant in plantList">
+                <td>{{plant.id}}</td>
+                <td>{{plant.genus}}</td>
+                <td>{{plant.lighting}}</td>
+                <td>{{plant.watering}}</td>
+                <td>{{plant.temperature}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
